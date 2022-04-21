@@ -35,14 +35,14 @@ Connect the supply (+5V) to the circuit
 Switch ON the main switch
 If the output is 1, then the led glows.
 ### 
-```
+
 Program:
 /*
 Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
+Developed by: EASWAR.J
+RegisterNumber:  2122212230024
 */
-```
+
 Half adder program:
 ```
 module fulladd (a,b,sum,carry);
@@ -82,6 +82,14 @@ RTL realization
 ![fulladd wave](https://user-images.githubusercontent.com/94154683/164455712-701ead16-9633-494c-8504-b19833e7c6a3.PNG)
 
 ### TRUTH TABLE 
+#### Half adder
+![DIG2](https://user-images.githubusercontent.com/94154683/164457046-bfdb27f7-66f8-4a5f-b1a9-46e3b3c312c7.PNG)
+
+#### Full adder
+![dig2 1](https://user-images.githubusercontent.com/94154683/164457085-f0929a1f-0001-4937-960d-1e386ca6c9bd.PNG)
+
 
 
 ### Result:
+
+
