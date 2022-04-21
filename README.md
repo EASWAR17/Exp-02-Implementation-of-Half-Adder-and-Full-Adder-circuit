@@ -43,6 +43,15 @@ Developed by:
 RegisterNumber:  
 */
 ```
+Half adder program:
+```
+module fulladd (a,b,sum,carry);
+input a,b;
+output sum,carry;
+assign sum = (a^b);
+assign carry = (a&b);
+endmodule
+```
 Full adder program:
 ```
 module fulladd (a,b,c,sum,carry);
@@ -57,11 +66,20 @@ RTL realization
 
 ### Output:
 ### RTL
+#### Half adder:
 ![ex2 digi](https://user-images.githubusercontent.com/94154683/164240824-a7b58108-4a64-413d-a691-86d2e2cf4b99.PNG)
 
+#### Full adder:
+![ss1](https://user-images.githubusercontent.com/94154683/164455620-be9d5c59-e310-411b-bfd9-60065080e8c7.PNG)
+
+
 ### TIMING DIAGRAM
+#### Half adder
 ![wave form](https://user-images.githubusercontent.com/94154683/164241126-0c182b82-6619-47e3-bfa6-88b5a3b7b2c4.PNG)
 
+#### Full adder
+
+![fulladd wave](https://user-images.githubusercontent.com/94154683/164455712-701ead16-9633-494c-8504-b19833e7c6a3.PNG)
 
 ### TRUTH TABLE 
 
